@@ -1,0 +1,167 @@
+.root {
+  height: 100%;
+  width: 100%;
+  color: #1f2a55;
+  overflow:auto;
+  font-family: Montserrat;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  background: #2564ee;
+}
+
+.time {
+  font-size: 0.938rem;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #000;
+}
+
+.icons {
+  i {
+    margin-left: 4px;
+  }
+}
+
+.feedContainer {
+  height: 160px;
+  width: 100%;
+  background: #2564ee;
+  position: relative;
+}
+
+.inputFeed {
+  width: 50%;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #e0e7f5;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  left: 25%;
+}
+
+.feedLog {
+  padding-top: 24px;
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+textArea {
+  width: 90%;
+  height: 60%;
+  margin: 18px;
+  border-radius: 12px;
+  border: solid 1px #e0e7f5;
+}
+
+.sign {
+  border-radius: 20px;
+  background-color: #2665ee;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2.46px;
+  text-align: center;
+  color: #fff;
+  float: right;
+  margin-right: 12px;
+}
+
+.container {
+  margin-top: 140px;
+  width: 100%;
+}
+
+.userCard {
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 12px;
+  border: solid 0.5px #e0e7f5;
+  background-color: #fff;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.userDetails {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.userPhoto {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 24px;
+  border: solid 0.6px #d3c0e8;
+  background-color: #f5ebff;
+  margin-right: 6px;
+}
+
+.details {
+  width: calc(100%-3rem);
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day {
+  opacity: 0.7;
+  font-size: 0.75rem;
+}
+
+.badges {
+  font-size: 0.625rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.gren {
+  width: 0.5rem;
+  height: 0.625rem;
+  box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.33);
+  background-color: #0bbd9b;
+  margin-right: 4px;
+}
+
+.red {
+  width: 0.5rem;
+  height: 0.625rem;
+  box-shadow: inset 0 1px 1px 0 rgba(210, 164, 24, 0.41);
+  background-color: #f4bf1a;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.userFeed {
+  font-size: 0.875rem;
+  letter-spacing: normal;
+  color: rgba(31, 42, 85, 0.7);
+  margin-top: 12px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.logOut {
+  cursor: pointer;
+}

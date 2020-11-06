@@ -1,0 +1,12 @@
+{
+  "client": ["/assets/vendors.chunk.js", "/assets/client.js"],
+  "SignIn": [
+    "/assets/SignIn~feed~not-found.chunk.js",
+    "/assets/SignIn.chunk.js"
+  ],
+  "feed": ["/assets/SignIn~feed~not-found.chunk.js", "/assets/feed.chunk.js"],
+  "not-found": [
+    "/assets/SignIn~feed~not-found.chunk.js",
+    "/assets/not-found.chunk.js"
+  ]
+}
